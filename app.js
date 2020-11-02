@@ -1,6 +1,6 @@
-import express from "express";
-import mongoose from "mongoose";
-import blogRouter from "./routes/blogsRoutes.js";
+const express = require("express");
+const mongoose = require("mongoose");
+const blogRouter = require("./routes/blogsRoutes.js");
 
 // express app
 const app = express();
